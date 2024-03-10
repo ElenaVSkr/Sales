@@ -34,7 +34,7 @@ public class StatsServiceTest {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int count = service.sumSales(sales);
+        long count = service.sumSales(sales);
 
         System.out.println(count);
     }
@@ -44,7 +44,7 @@ public class StatsServiceTest {
         StatsService service = new StatsService();
 
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
-        int count = service.averageSales(sales);
+        long count = service.averageSales(sales);
 
         System.out.println(count);
     }
